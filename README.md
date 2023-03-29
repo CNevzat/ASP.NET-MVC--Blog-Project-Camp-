@@ -5,3 +5,5 @@
 - Authentication
 - CRUD Operations
 - Compatible with Solid principles
+- Dynamic
+- Authorization
