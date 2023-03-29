@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "SweetAlerts";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<br />
+<button class="btn btn-info" id="btn1">Hello MVC</button>
+
+<button class="btn btn-danger" id="btn2">Add Category (Sample)</button>
+
+
+<script>
+    $('#btn1').click(function () {
+        swal("Hello MVC Project Camp!");
+    });
+</script>
+<script>
+    $('#btn2').click(function () {
+        swal("Good job!", "Category added!", "success");
+    });
+</script>
+

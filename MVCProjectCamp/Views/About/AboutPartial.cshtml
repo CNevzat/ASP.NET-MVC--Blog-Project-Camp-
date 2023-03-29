@@ -1,0 +1,29 @@
+﻿<button class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    New About Text Input
+</button>
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Text Input</h2>
+            </div>
+            <form method="post" action="/About/AddAbout">
+                <div class="modal-body">
+                    <label>About Text 1</label>
+                    <input type="text" name="AboutDetails1" class="form-control" />
+                    <br />
+                    <label>About Text 2</label>
+                    <input type="text" name="AboutDetails2" class="form-control" />
+                    <br />
+                    <label>About Image 1</label>
+                    <input type="text" name="AboutImage1" class="form-control" />
+                    <br />
+                    <label>About Image 2</label>
+                    <input type="text" name="AboutImage2" class="form-control" />
+                    <br />
+                    <button class="btn btn-info">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

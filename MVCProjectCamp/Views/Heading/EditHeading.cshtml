@@ -1,0 +1,29 @@
+﻿@model EntityLayer.Concrete.Heading
+@{
+    ViewBag.Title = "EditHeading";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>EditHeading Page</h2>
+@using (Html.BeginForm("EditHeading","Heading",FormMethod.Post))
+            {
+                <div class="form-group">
+                    @Html.Label("Heading ID")
+                    @Html.TextAreaFor(x => x.HeadingID, new { @class = "form-control" })
+                    <br />
+                    @Html.Label("Heading Name")
+                    @Html.TextAreaFor(x => x.HeadingName, new { @class = "form-control" })
+                    <br />
+                    @Html.Label("Date")
+                    @Html.TextAreaFor(x => x.HeadingDate, new { @class = "form-control" })
+                    <br />
+                    @Html.Label("Writer ID")
+                    @Html.TextAreaFor(x => x.WriterID, new { @class = "form-control" })
+                    <br />
+                    @Html.Label("Category")
+                    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
+                    <br />
+                    <button class="btn btn-success">Update</button>
+                </div>
+            }
+

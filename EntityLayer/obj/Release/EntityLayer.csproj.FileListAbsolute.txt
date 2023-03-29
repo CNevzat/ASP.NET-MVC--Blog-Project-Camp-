@@ -1,0 +1,12 @@
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\bin\Release\EntityLayer.dll.config
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\bin\Release\EntityLayer.dll
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\bin\Release\EntityLayer.pdb
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\bin\Release\EntityFramework.dll
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\bin\Release\EntityFramework.xml
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\obj\Release\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\obj\Release\EntityLayer.dll
+C:\Users\ncirp\Desktop\Visual Studio Projects\EntityLayer\obj\Release\EntityLayer.pdb

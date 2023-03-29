@@ -1,0 +1,27 @@
+﻿@model EntityLayer.Concrete.Heading
+@{
+    ViewBag.Title = "AddHeading";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Adding New Writer</h2>
+<br />
+@using (Html.BeginForm("AddHeading", "Heading", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Heading")
+        @Html.TextBoxFor(x => x.HeadingName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.HeadingName)
+        <br />
+        @Html.Label("Category")
+        @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
+        <br />
+        @Html.Label("Writer")
+        @Html.DropDownListFor(x => x.WriterID, (List<SelectListItem>)ViewBag.vlw, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-info">Create Heading</button>
+    </div>
+}
+
+
+
